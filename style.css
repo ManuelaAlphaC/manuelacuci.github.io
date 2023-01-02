@@ -28,14 +28,14 @@ body {
   width: 350px;
   height: 170px;
   margin-top: -30px;
-  justify-content: center;
-  text-align: center;
 }
 
 .photo-profile {
   border-radius: 50%;
   width: 140px;
   height: 160px;
+  display: block; 
+  margin: 0 auto; 
 }
 
 a {
@@ -55,23 +55,17 @@ a:hover {
 }
 
 p{
-  font-size: 30px;
+  font-size: 1.4em;
   text-align: justify;
-  justify-content: center;
-}
-p, ol, li{
-  font-size: 30px;
-  text-align: justify;
-  justify-content: center;
+  
 }
 
 .icons {
   height: 30px;
   width: 30px;
-  align-content: flex;
-  margin-top: 10px;
   margin: 10px;
 }
+
 
 .AVOTARS {
   text-align: center;
@@ -88,9 +82,12 @@ p, ol, li{
 }
 
 
-@media (min-width: 300px) and (max-width: 900px) {
-  .prev, .next,.text {font-size: 20px}
+@media (max-width: 640px) {
+  p {
+    font-size: 1.2em;
+  }
 }
+
 
 
 
