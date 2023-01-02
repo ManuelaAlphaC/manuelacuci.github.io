@@ -59,6 +59,11 @@ p{
   text-align: justify;
   justify-content: center;
 }
+p, ol, li{
+  font-size: 30px;
+  text-align: justify;
+  justify-content: center;
+}
 
 .icons {
   height: 30px;
